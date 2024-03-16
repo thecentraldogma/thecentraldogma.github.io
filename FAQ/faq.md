@@ -1,8 +1,6 @@
 ---
-layout: post
-title: "FAQ"
-date: 2024-03-15
-mathjax: true
+layout: page
+title: FAQ
 ---
 
 - What is the traditional drug discovery process and where can AI help? 
