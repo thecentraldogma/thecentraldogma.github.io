@@ -3,7 +3,11 @@ layout: page
 title: FAQ
 ---
 
-- B cell: 
+- Antibody: 
+
+- Antigen: 
+
+- B cell: A type of cell in the human immune system, that is produced in bone marrow. B cells are responsible for producing antibodies that are specific to the gemoetry of an antigen found by the immune system in the body. Each new B cell has about 10^5 copies of a specific type of random geometric antibody sticking out from its surface. This antibody is capable of sticking to antigens with certain geometries but not others. When a given B cell's antibodies bind to an antigen, this causes the B cell to divide an produce copies of itself: but two different types of copies are created -- namely, more B-cells with the same type of antibody sticking out on its surface, and B cells that are capable of secreting the same antibody. This is the process by which the body produces antibodies specific to a newly recognized antigen in the body, capable of binding to the antigen.    
 
 - Cancer: A class of diseases with some common factors, in particular uncontrolled cell growth. 
 
