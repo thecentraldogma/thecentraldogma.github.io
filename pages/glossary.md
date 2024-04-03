@@ -17,7 +17,7 @@ title: Glossary
 
 - **Central Dogma**: The idea that information flows in one direction: DNA --> RNA --> Proteins. First coined and proposed by Francis Crick in 1958. Several exceptions to the theory have sine been discovered. On particularly notable example is that of prions. Prions are infectious proteins which replicate without going through DNA or RNA intermediates. 
 
-- **Differentiation**: The process by which the human immune system produces antibodies tailored to a specific antigen. 
+- **Differentiation**: The process by which B-cells in the human immune system divide into two different types of cells, namely plasma cells (which only produce antibodies that are secreted, sometimes at a very high rate, and then these cells die without further growth or division), and other B-cells that express antibody proteins of the same type at their membrane/surface. 
 
 - **DNA**: Deoxy Ribonucleic Acid is a very long sequence of nucleotide base-pairs (A, G, T, C) structured as a double helix. It is located inside the nucleus of the cell. 
 
@@ -37,7 +37,9 @@ title: Glossary
 
 - **MSA**: Multiple Sequence Alignment. 
  
-- **Protein** 	: a large molecule (macromolecule) consisting of a variable length chain of 20 possible amino acids. Typical chain size is about 350, but can be more than 1000. Proteins have many different functions, that depend on their shape. For example, Haemoglobin is a protein that has a specific shape that allows oxygen molecules to bind to it. Insulin is also a protein. Most receptors are proteins. 
+- **Protein** : a large molecule (macromolecule) consisting of a variable length chain of 20 possible amino acids. Typical chain size is about 350, but can be more than 1000. Proteins have many different functions, that depend on their shape. For example, Haemoglobin is a protein that has a specific shape that allows oxygen molecules to bind to it. Insulin is also a protein. Most receptors are proteins. 
+
+- **Protein Language Model**: A protein LLM is a BERT-style (encoder-only) model that uses the masked language modeling objective to do self-supervised learning on protein sequences from a large dataset (e.g. all protein sequences in the PDB). At inference time, a new protein sequence is fed to the model and the model outputs a new sequence of vectors of the same length that is meant to represent the protein in representation space. This model can then be fine tuned for various downstream tasks such as protein classification or structure prediction. 
 
 - **QSAR**: 
 
