@@ -2,13 +2,14 @@
 layout: page
 title: Glossary
 ---
-Use Ctrl + F to search for a term. 
 
-- **Antibody**: 
+- **Antibody**: A macro molecule, usually a protein, that is meant to bind to an antigen. The binding is enabled by a close match between the shape of the antigen and a complementary geometric 3D shape in the antibody. Antibodies are produced by the human body naturally (via B-cells, see below), but some drugs are also based on (externally created) antibodies. 
 
-- **Antigen**: 
+- **Antigen**: A general term for a foreign body that the body deems to be an invader that must be attacked / neutralized. Antigens can be macromolecules like proteins, or something else - for e.g. people with pollen allergies have immune systems that believe that pollen is an antigen that is then attacked. 
 
 - **B cell**: A type of cell in the human immune system, that is produced in bone marrow. B cells are responsible for producing antibodies that are specific to the gemoetry of an antigen found by the immune system in the body. Each new B cell has about 10^5 copies of a specific type of random geometric antibody sticking out from its surface. This antibody is capable of sticking to antigens with certain geometries but not others. When a given B cell's antibodies bind to an antigen, this causes the B cell to divide an produce copies of itself: but two different types of copies are created -- namely, more B-cells with the same type of antibody sticking out on its surface, and B cells that are capable of secreting the same antibody. This is the process by which the body produces antibodies specific to a newly recognized antigen in the body, capable of binding to the antigen.    
+
+- **BLAST**: 
 
 - **Cancer**: A class of diseases with some common factors, in particular uncontrolled cell growth. 
 
@@ -34,6 +35,8 @@ Use Ctrl + F to search for a term.
 
 - **mRNA vaccine**: A type of vaccine that delivers mRNA to the human body which then presents the mRNA to ribosomes in cells that then translate the mRNA into proteins. The vaccine effectively uses mRNA as a means to generate a desired protein in the body. The protein is typically an antigen in the disease pathway that the vaccine is pretecting against. The body therefore gets time to produce antibodies against this antigen, so if the body in infected by the disease, it already has antibodies that would neutralize the antigen. The COVID19 vaccine is an example of an mRNA vaccine. The 2023 Nobel Price in Medicine was awared to Kaitlin Kariko and Drew Weissman for creating mRNA vaccines. 
 
+- **MSA**: Multiple Sequence Alignment. 
+ 
 - **Protein** 	: a large molecule (macromolecule) consisting of a variable length chain of 20 possible amino acids. Typical chain size is about 350, but can be more than 1000. Proteins have many different functions, that depend on their shape. For example, Haemoglobin is a protein that has a specific shape that allows oxygen molecules to bind to it. Insulin is also a protein. Most receptors are proteins. 
 
 - **QSAR**: 
