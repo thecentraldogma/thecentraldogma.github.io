@@ -2,6 +2,7 @@
 layout: page
 title: Glossary
 ---
+Use Ctrl + F to search for a term. 
 
 - **Antibody**: 
 
