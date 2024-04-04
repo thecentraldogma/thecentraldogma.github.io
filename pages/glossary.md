@@ -9,7 +9,7 @@ title: Glossary
 
 - **B cell**: A type of cell in the human immune system, that is produced in bone marrow. B cells are responsible for producing antibodies that are specific to the gemoetry of an antigen found by the immune system in the body. Each new B cell has about 10^5 copies of a specific type of random geometric antibody sticking out from its surface. This antibody is capable of sticking to antigens with certain geometries but not others. When a given B cell's antibodies bind to an antigen, this causes the B cell to divide an produce copies of itself: but two different types of copies are created -- namely, more B-cells with the same type of antibody sticking out on its surface, and B cells that are capable of secreting the same antibody. This is the process by which the body produces antibodies specific to a newly recognized antigen in the body, capable of binding to the antigen.    
 
-- **BLAST**: 
+- **BLAST**: BLAST (Basic Local Alignment Search Tool) is a fast heuristic algorithm that seeks local alignments between a given sequence and a database of existing sequences (proteins, DNA, etc.). It first identifies high-scoring sequence pairs by looking for matches between short word-length sequences. The algorithm then uses these matches as seeds to find longer alignments without examining every possible alignment in detail. This approach allows BLAST to efficiently process large sequence databases by focusing on the most promising match regions. BLAST aims to maximize the alignment score, which is calculated based on a scoring system that assigns positive scores for matches and negative scores for mismatches and gaps.
 
 - **Cancer**: A class of diseases with some common factors, in particular uncontrolled cell growth. 
 
@@ -41,9 +41,9 @@ title: Glossary
 
 - **Protein Language Model**: A protein LLM is a BERT-style (encoder-only) model that uses the masked language modeling objective to do self-supervised learning on protein sequences from a large dataset (e.g. all protein sequences in the PDB). At inference time, a new protein sequence is fed to the model and the model outputs a new sequence of vectors of the same length that is meant to represent the protein in representation space. This model can then be fine tuned for various downstream tasks such as protein classification or structure prediction. 
 
-- **QSAR**: 
+- **QSAR**: Quantitative Structure-Activity Relationship, which simple refers to the quantitative modeling of structure and function of molecules and their interaction. Does not refer to a particular algorithm or model. For example, 3D protein-protein interactions can be termed a type of protein-protein QSAR. 
 
-- **Receptor**: 
+- **Receptor**: A molecule or part of a molecule, usually a protein, that another molecule binds or docks to. The molecule that binds to it is called the ligand. This binding interaction can enable a variety of cellular responses.  Essentially, receptors are the docking stations for ligands, enabling communication and processes within and between cells. A famous example of a receptor-ligand interaction is the insulin receptor and its ligand, insulin. Insulin is a hormone crucial for glucose metabolism. When insulin binds to its receptor on the cell surface, it triggers a cascade of events allowing cells to take up glucose from the bloodstream, which is vital for energy production and maintaining blood glucose levels.
 
 - **Recombinant**: Recombinant refers to the technology used to create proteins by inserting the gene for the target protein into another organism, such as yeast or bacterial cells, which then produce the protein. This produced protein is used as the active ingredient in the vaccine to elicit an immune response without causing the disease, providing immunity against future infections.
 
