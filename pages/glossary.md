@@ -35,7 +35,9 @@ title: Glossary
 
 - **mRNA vaccine**: A type of vaccine that delivers mRNA to the human body which then presents the mRNA to ribosomes in cells that then translate the mRNA into proteins. The vaccine effectively uses mRNA as a means to generate a desired protein in the body. The protein is typically an antigen in the disease pathway that the vaccine is pretecting against. The body therefore gets time to produce antibodies against this antigen, so if the body in infected by the disease, it already has antibodies that would neutralize the antigen. The COVID19 vaccine is an example of an mRNA vaccine. The 2023 Nobel Price in Medicine was awared to Kaitlin Kariko and Drew Weissman for creating mRNA vaccines. 
 
-- **MSA**: Multiple Sequence Alignment. 
+- **MSA**: Multiple Sequence Alignment. Multiple Sequence Alignment (MSA) involves aligning three or more biological sequences (DNA, RNA, or proteins) to identify regions of similarity that may indicate functional, structural, or evolutionary relationships between the sequences. By comparing these sequences, MSA helps in identifying conserved sequence motifs, understanding phylogenetic relationships, and predicting the structure and function of newly discovered genes or proteins.
+
+- **Post-translational modifications**: Post-translational modifications (PTMs) are chemical changes to a protein after its synthesis (translation) in a cell. These modifications can occur at various points in a protein's lifecycle and are essential for regulating its function, localization, and interaction with other cellular molecules. PTMs can influence a protein's activity, stability, and its role in signaling pathways, thereby playing a critical role in numerous biological processes and diseases.
  
 - **Protein** : a large molecule (macromolecule) consisting of a variable length chain of 20 possible amino acids. Typical chain size is about 350, but can be more than 1000. Proteins have many different functions, that depend on their shape. For example, Haemoglobin is a protein that has a specific shape that allows oxygen molecules to bind to it. Insulin is also a protein. Most receptors are proteins. 
 

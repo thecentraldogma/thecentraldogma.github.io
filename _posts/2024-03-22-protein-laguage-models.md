@@ -7,7 +7,9 @@ mathjax: true
 
 Protein-LMs are BERT-style (encoder only) models trained on protein sequences, typically using a masked-language-modeling objective. The goal is to to self-supervised repreesntation learning, so that the learnt protein representations can perform well on downstream tasks by virtue of transfer learning, or the learnt model can be fine-tuned using a labelled dataset for a downstream task. 
 
-A number of Protein-LLMs have been proposed by groups in academia and industry: 
+A number of Protein-LLMs have been proposed by groups in academia and industry. Below is an (opinionated) history of the developments in the last few years: 
+
+- Transformer based protein language models were introduce in the 2019 preprint "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences", from the Meta AI protein research team. 
 
 - ProteinBERT (2022, Hebrew University of Jerusalem)
 
@@ -19,7 +21,11 @@ A number of Protein-LLMs have been proposed by groups in academia and industry:
 
 - UniRep
 
-Downstream tasks for protein modeling: 
+
+**Embeddings produced by protein-LLMs**: 
+In the general case, one can utilize the output of the last layer of the network as embeddings -- this produces a tensor of shape 'Number of residues' x 'Embedding dimension'. But one can also take the mean of all the embeddings across residues to get a single vector for the entire protein as a point in embedding dimensions. It is also possible to get earlier layers too of course. Finally, as in BERT, it can be more meaningful to use the embedding corresponding to the BEGIN token, rather than taking a mean over all amino acids
+
+**Downstream tasks for protein modeling**:
 
 - Remote Homology prediction: Two proteins with very different sequences can sometimes have very similar 3D structures. Often, this happens when two proteins have evolutionarily descended from the same ancestor protein and perform very similar functions and hence have similar structure, but their sequences have diverged quite a lot. Remote homology detection is typically cast as a classification task where each protein is mapped to a single class corresponding to a brad characterization of its 3D structure. 
 
@@ -32,6 +38,8 @@ Downstream tasks for protein modeling:
 - Disorder prediction: 
 
 - Flourescence prediction: This is a regression task at the protein level. 
+
+- Predicting where a protein appears, with respect to a cell: on the membrance, in the cytoplasm, etc.: the DeepLoc-2 dataset: https://services.healthtech.dtu.dk/services/DeepLoc-2.0/
 
 
 Benchmarks for evaluating transfer learning from protein LLMs: 

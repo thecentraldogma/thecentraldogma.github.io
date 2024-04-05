@@ -16,6 +16,8 @@ A list of interesting papers.
 
 - Geometric deep learning book https://arxiv.org/pdf/2104.13478.pdf
 
+- Growing ecosystem of deep learning methods for modeling protein–protein interactions, https://arxiv.org/pdf/2310.06725.pdf
+
 
 
 **Self-supervised learning on biological sequences**
@@ -55,6 +57,8 @@ A list of interesting papers.
 - Ingraham, Illuminating protein space with a programmable generative model (Chroma paper) file:///home/suhas/Downloads/s41586-023-06728-8%20(1).pdf
 
 - Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design https://arxiv.org/pdf/2402.04997.pdf
+
+- Progen: Large language models generate functional protein sequences across diverse families http://cdn.fraserlab.com/publications/2023_madani.pdf
 
 
 **Miscellaneous**
