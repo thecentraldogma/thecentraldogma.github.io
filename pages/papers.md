@@ -34,6 +34,8 @@ A list of interesting papers.
 
 - scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data, https://www.nature.com/articles/s42256-022-00534-z.pdf
 
+- ProtTrans: Towards Cracking the Language of Life’s Code Through Self-Supervised Learning, 2021. https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+
 
 
 

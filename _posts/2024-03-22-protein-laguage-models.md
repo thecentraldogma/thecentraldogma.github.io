@@ -41,6 +41,8 @@ In the general case, one can utilize the output of the last layer of the network
 
 - Predicting where a protein appears, with respect to a cell: on the membrance, in the cytoplasm, etc.: the DeepLoc-2 dataset: https://services.healthtech.dtu.dk/services/DeepLoc-2.0/
 
+- Predicing post-translational modifications: this is a per-token (amino acid) classification task. Essentially, here we are interested in predicting which residues will undergo some kind of change after the protein has been created. 
+
 
 Benchmarks for evaluating transfer learning from protein LLMs: 
 
