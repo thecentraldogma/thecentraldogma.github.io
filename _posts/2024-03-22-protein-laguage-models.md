@@ -43,6 +43,8 @@ In the general case, one can utilize the output of the last layer of the network
 
 - Predicing post-translational modifications: this is a per-token (amino acid) classification task. Essentially, here we are interested in predicting which residues will undergo some kind of change after the protein has been created. 
 
+- $T_m$ prediction: Predicting the meltime temperature of a protein, which is the temperature at which the protein looses its stable 3D configuration. This is a prtein-level regression task. 
+
 
 Benchmarks for evaluating transfer learning from protein LLMs: 
 
