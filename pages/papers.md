@@ -18,6 +18,8 @@ A list of interesting papers.
 
 - Growing ecosystem of deep learning methods for modeling protein–protein interactions, https://arxiv.org/pdf/2310.06725.pdf
 
+- Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
+
 
 
 **Self-supervised learning on biological sequences**
@@ -61,6 +63,9 @@ A list of interesting papers.
 - Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design https://arxiv.org/pdf/2402.04997.pdf
 
 - Progen: Large language models generate functional protein sequences across diverse families http://cdn.fraserlab.com/publications/2023_madani.pdf
+
+- Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
+
 
 
 **Miscellaneous**

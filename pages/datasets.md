@@ -5,11 +5,15 @@ title: Datasets
 
 A list of useful datasets. 
 
+- ChemBL: 
+
 - UniProtKB/UniRef90: ~106M Protein sequences, covering the entire tree of life. 
 
 - pfam: Protein Families database. About 31M proteins, clustered into evolutionarily-related families.
 
 - proteinNET:  
+
+- DISEASES: DISEASES is a weekly updated web resource that integrates evidence on disease-gene associations from automatic text mining, manually curated literature, cancer mutation data, and genome-wide association studies. https://diseases.jensenlab.org/About
 
 
 **Structure of MSA files with extension .a3m**
