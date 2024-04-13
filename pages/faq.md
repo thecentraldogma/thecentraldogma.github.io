@@ -1,6 +1,7 @@
 ---
 layout: page
 title: FAQ
+includelink: true
 ---
 
 **What is the traditional drug design process?**

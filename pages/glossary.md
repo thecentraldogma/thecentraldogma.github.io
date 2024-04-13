@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Glossary
+includelink: true
 ---
 
 - **Antibody**: A macro molecule, usually a protein, that is meant to bind to an antigen. The binding is enabled by a close match between the shape of the antigen and a complementary geometric 3D shape in the antibody. Antibodies are produced by the human body naturally (via B-cells, see below), but some drugs are also based on (externally created) antibodies. 

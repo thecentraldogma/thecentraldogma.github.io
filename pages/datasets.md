@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Datasets
+includelink: true
 ---
 
 A list of useful datasets. 
