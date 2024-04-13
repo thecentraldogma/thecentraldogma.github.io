@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Papers
+includelink: true
 ---
 A list of interesting papers.
 
