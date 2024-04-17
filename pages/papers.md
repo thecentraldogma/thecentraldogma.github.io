@@ -21,6 +21,8 @@ A list of interesting papers.
 
 - Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
 
+- The genetic Basis for Disease: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279436/pdf/ebc-62-ebc20170053.pdf
+
 
 
 **Self-supervised learning on biological sequences**
