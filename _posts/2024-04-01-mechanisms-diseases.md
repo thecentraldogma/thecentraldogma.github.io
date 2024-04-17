@@ -65,7 +65,47 @@ Here is a list of 20 'important' diseases (coveraing several categories above, a
 20. Nutritional Deficiencies (e.g., iron deficiency anemia): Result from insufficient intake or absorption of nutrients, leading to various bodily dysfunctions.
 
 
+The understanding of molecular biology has significantly advanced the development of targeted therapies, particularly in treating diseases where the pathological mechanisms are well understood at a biomolecular level. Below, I'll list 20 diseases where the molecular biology is well understood and there are drugs targeting these molecular pathways, either as small molecules or as protein therapies. Each explanation will highlight the molecular targets and therapeutic approaches.
 
+- Cystic Fibrosis: The disease is caused by mutations in the CFTR gene affecting chloride transport. Drugs like Ivacaftor enhance the function of the CFTR protein by increasing the probability that the channel remains open.
+
+- Hepatitis C: Caused by the hepatitis C virus, the disease has been effectively treated with direct-acting antivirals like Sofosbuvir, which inhibits the viral RNA polymerase, preventing viral replication.
+
+- Type 1 Diabetes: The autoimmune destruction of insulin-producing beta cells in the pancreas is the primary cause. Treatments include insulin therapy, where synthetic insulin replaces the insulin that the body cannot produce.
+
+- Type 2 Diabetes: Characterized by insulin resistance and eventual pancreatic beta-cell failure. Drugs like Metformin reduce glucose production in the liver and improve insulin sensitivity.
+
+- Breast Cancer: Often driven by hormone receptors or HER2 receptor overexpression. Drugs like Tamoxifen (targets estrogen receptors) and Trastuzumab (targets HER2 receptors) are used based on the molecular profile of the tumor.
+
+- Chronic Myeloid Leukemia (CML): Characterized by the BCR-ABL fusion protein with constitutive kinase activity. Imatinib, a tyrosine kinase inhibitor, effectively targets this protein.
+
+- HIV/AIDS: The disease progression is driven by the HIV virus, which integrates into the host genome. Antiretroviral therapies like Zidovudine inhibit the reverse transcriptase enzyme of HIV.
+
+- Asthma: Biological understanding points towards an inflammatory component, particularly IgE. Omalizumab, an anti-IgE antibody, helps reduce allergic responses and asthma symptoms.
+
+- Rheumatoid Arthritis: Autoimmune disease attacking the joints. Drugs like Methotrexate (inhibits metabolism) and TNF inhibitors (e.g., Infliximab) target specific immune pathways involved in inflammation.
+
+- Multiple Sclerosis: An autoimmune disorder affecting the CNS. Natalizumab blocks adhesion molecules on the surfaces of immune cells, preventing them from crossing the blood-brain barrier.
+
+- Psoriasis: Characterized by hyperproliferation of keratinocytes and inflammation. Biologics like Ustekinumab block specific cytokines (IL-12 and IL-23) involved in the inflammatory pathway.
+
+- Alzheimer’s Disease: Amyloid plaques and tau tangles are key pathological features. Drugs like Aducanumab target amyloid-beta plaques, aiming to reduce their buildup.
+
+- Parkinson’s Disease: Loss of dopamine-producing cells in the brain. Levodopa increases dopamine levels, improving motor symptoms of the disease.
+
+- Lung Cancer: Non-small cell lung cancer often involves mutations in the EGFR gene. EGFR inhibitors like Gefitinib specifically target these mutations.
+
+- Melanoma: Mutations in BRAF gene (V600E) in many cases. Vemurafenib targets this specific mutation, inhibiting the mutant BRAF protein and stopping cancer cell growth.
+
+- Tuberculosis: Caused by Mycobacterium tuberculosis, with a complex pathogenesis. Rifampicin inhibits DNA-dependent RNA polymerase in the bacterium.
+
+- Hypercholesterolemia: Typically involves mutations affecting LDL receptor function. Statins (e.g., Atorvastatin) inhibit HMG-CoA reductase, a key enzyme in cholesterol synthesis.
+
+- Osteoporosis: Decreased bone density and strength, often linked to hormonal changes. Bisphosphonates like Alendronate inhibit osteoclast-mediated bone resorption.
+
+- Leukemia (Acute Lymphoblastic Leukemia): Characterized by the overproduction of immature lymphocytes. L-asparaginase targets these cancer cells by depleting asparagine, which they need to survive.
+
+- Hemophilia: Caused by deficiencies in clotting factors. Recombinant clotting factors (e.g., Factor VIII for Hemophilia A) are administered to restore normal clotting mechanisms.
 
 
 
