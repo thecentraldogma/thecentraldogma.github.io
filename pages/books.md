@@ -3,7 +3,7 @@ layout: page
 title: Books
 includelink: true
 ---
-As someone with a background in machine learning but not in biology/chemistry, these are books that I've found useful so far. 
+As someone with a background in machine learning but not in biology/chemistry, these are books that I've found useful so far. I haven't read them cover to cover, but I've found individual chapters / sections useful. It is also useful to ask ChatGPT (GPT4) for a basic explanation of a topic, along with references to a review article or book.
 
 - Medicinal Chemistry, Patrick Graham. A large textbook that covers most topics related to drug design. 
 
