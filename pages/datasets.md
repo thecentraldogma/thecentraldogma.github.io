@@ -4,20 +4,6 @@ title: Datasets
 includelink: true
 ---
 
-**The nature of data**
-
-Biological data has several nuances to be aware of. Just as someone new to computer vision would have no idea what R/G/B channels are, someone new to proteins or genomics needs to be careful in understanding nuances of data. This is a work-in-progress document that I will constantly update as and when I learn new things. 
-
-- Protein data: 
-	- The most fundamental type of data for proteins is protein sequences, usually prepresented as a text string of capital letters drawn from a volcabulary of 20 possible letters, which represent 20 possible amino acids. There are 5 more letters that are meant to capture rare cases such as very rare forms of amino acids, and unknown amino acids. This protein sequence is called the 'primary structure' of a protein. 
-	- The number of known protein sequences in all of biology (not just in humans) is growing rapidly and currently stands at 600M (as of March 2024). The number of known proteins in the human body is about 300,000.
-	- The secondary structure of a protein is a 3-way annotation for each amino acid that says whether that amino acid is part of an alpha-helix, a beta-sheet or neither. 
-	- The tertiary structure of a protein specifies the exact 3-dimensional coordinates of each alpha-carbon in the peptide backbone, upto roatations and translations of the entire protein. Predicting the teriary structure is the subject of the CASP challenge, which the now-famous AlphaFold2 model did very well at. 
-	- There are several datasests associated with the properties of proteins, apart from structure, and these are often things that biologists care about predicting. For example: whether the protein lives in a cell's cytoplasm, or on the membrane, what the melting point of a protein is (the temp at which it looses its tertiary structure, the, etc. 
-
-- Genomics data
-
-
 **A list of useful datasets/databases:**
 
 - [ChemBL](https://www.ebi.ac.uk/chembl/): A large database of various biologically active compounds. It 'brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.'
@@ -31,6 +17,19 @@ Biological data has several nuances to be aware of. Just as someone new to compu
 
 - [DISEASES](https://diseases.jensenlab.org/About): DISEASES is a weekly updated web resource that integrates evidence on disease-gene associations from automatic text mining, manually curated literature, cancer mutation data, and genome-wide association studies.
 
+
+**The nature of data**
+
+Biological data has several nuances to be aware of. Just as someone new to computer vision would have no idea what R/G/B channels are, someone new to proteins or genomics needs to be careful in understanding nuances of data. This is a work-in-progress document that I will constantly update as and when I learn new things.
+
+- Protein data:
+        - The most fundamental type of data for proteins is protein sequences, usually prepresented as a text string of capital letters drawn from a volcabulary of 20 possible letters, which represent 20 possible amino acids. There are 5 more letters that are meant to capture rare cases such as very rare forms of amino acids, and unknown amino acids. This protein sequence is called the 'primary structure' of a protein.
+        - The number of known protein sequences in all of biology (not just in humans) is growing rapidly and currently stands at 600M (as of March 2024). The number of known proteins in the human body is about 300,000.
+        - The secondary structure of a protein is a 3-way annotation for each amino acid that says whether that amino acid is part of an alpha-helix, a beta-sheet or neither.
+        - The tertiary structure of a protein specifies the exact 3-dimensional coordinates of each alpha-carbon in the peptide backbone, upto roatations and translations of the entire protein. Predicting the teriary structure is the subject of the CASP challenge, which the now-famous AlphaFold2 model did very well at.
+        - There are several datasests associated with the properties of proteins, apart from structure, and these are often things that biologists care about predicting. For example: whether the protein lives in a cell's cytoplasm, or on the membrane, what the melting point of a protein is (the temp at which it looses its tertiary structure, the, etc.
+
+- Genomics data
 
 
 **What is FASTA format?**
