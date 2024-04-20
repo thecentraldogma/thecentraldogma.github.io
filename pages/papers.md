@@ -69,6 +69,8 @@ A list of interesting papers.
 
 - Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
 
+- Protpardelle - An all-atom protein generative model (Stanford group), https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1.full.pdf
+
 
 
 **Miscellaneous**

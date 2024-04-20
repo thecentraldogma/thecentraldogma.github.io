@@ -21,6 +21,10 @@ A number of Protein-LLMs have been proposed by groups in academia and industry. 
 
 - UniRep
 
+- ProtGPT2, University of Bayeruth
+
+- LM-Design, ByteDance
+
 
 **Embeddings produced by protein-LLMs**: 
 In the general case, one can utilize the output of the last layer of the network as embeddings -- this produces a tensor of shape 'Number of residues' x 'Embedding dimension'. But one can also take the mean of all the embeddings across residues to get a single vector for the entire protein as a point in embedding dimensions. It is also possible to get earlier layers too of course. Finally, as in BERT, it can be more meaningful to use the embedding corresponding to the BEGIN token, rather than taking a mean over all amino acids
