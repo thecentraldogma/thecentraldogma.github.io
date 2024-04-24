@@ -5,6 +5,8 @@ date: 2024-03-23
 mathjax: true
 ---
 
+Chapter 4 of the book Introduction to Protein Science (Arthur Lesk) gives a great overview of this topic, as well as of the major databses involved in protein science.
+
 The key technique for modeling sequence relationships in computational biology is alignment. Given a database of proteins and a new protein at test-time, an alignment-based method uses either carefully designed scoring systems to perform pairwise comparisons, Hidden Markov Model-like probabilistic models, or a combination to align the test protein
 
 - BLAST: BLAST (Basic Local Alignment Search Tool) is a fast heuristic algorithm that seeks local alignments between a given sequence and a database of existing sequences (proteins, DNA, etc.). It first identifies high-scoring sequence pairs by looking for matches between short word-length sequences. The algorithm then uses these matches as seeds to find longer alignments without examining every possible alignment in detail. This approach allows BLAST to efficiently process large sequence databases by focusing on the most promising match regions. BLAST aims to maximize the alignment score, which is calculated based on a scoring system that assigns positive scores for matches and negative scores for mismatches and gaps.

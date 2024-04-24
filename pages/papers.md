@@ -3,7 +3,7 @@ layout: page
 title: Papers
 includelink: true
 ---
-A list of interesting papers.
+A growing list of interesting papers.
 
 **Review papers**
 
@@ -49,7 +49,15 @@ A list of interesting papers.
 
 - Rosettafold paper  https://www.science.org/doi/10.1126/science.abj8754
 
+- [RosettaFold all atom](https://www.science.org/doi/10.1126/science.adl2528)
+
+- [FoldingDiff: Protein structure generation via folding diffusion](https://www.nature.com/articles/s41467-024-45051-2?fromPaywallRec=false)
+
 - ESMFold2 paper: Evolutionary-scale prediction of atomic level protein structure with a language model https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2.full.pdf
+
+- [OmegaFold: High-resolution de novo structure prediction from primary sequence](https://www.biorxiv.org/content/10.1101/2022.07.21.500999v1), 2022
+
+- 
 
 
 
