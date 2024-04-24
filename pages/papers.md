@@ -77,9 +77,12 @@ A growing list of interesting papers.
 
 - Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
 
-- Protpardelle - An all-atom protein generative model (Stanford group), https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1.full.pdf
+- [Protpardelle - An all-atom protein generative mode](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1.full.pdf)
 
 - [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003), for small moledules, equivariant to Euclidean transformations. 
+
+- [Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design](https://arxiv.org/abs/2402.04997)
+
 
 
 
