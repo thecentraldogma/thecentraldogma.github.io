@@ -41,6 +41,8 @@ A growing list of interesting papers.
 
 - ProtTrans: Towards Cracking the Language of Life’s Code Through Self-Supervised Learning, 2021. https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
 
+- [GeneFormer paper: Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9)
+
 
 
 
