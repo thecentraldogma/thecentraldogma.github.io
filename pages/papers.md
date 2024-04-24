@@ -57,9 +57,9 @@ A list of interesting papers.
 **Generative Models of molecules**
 - Dauparas (Baker lab), Robust deep learning–based protein sequence design using ProteinMPNN https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.full.pdf
 
-- RFdiffusion paper: https://www.nature.com/articles/s41586-023-06415-8
+- [RFdiffusion paper](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1)
 
-- RFdiffusion all atom paper: https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1.full.pdf
+- [RFdiffusion all atom paper](https://www.science.org/doi/10.1126/science.adl2528)
 
 - Ingraham, Illuminating protein space with a programmable generative model (Chroma paper) file:///home/suhas/Downloads/s41586-023-06728-8%20(1).pdf
 
@@ -71,8 +71,12 @@ A list of interesting papers.
 
 - Protpardelle - An all-atom protein generative model (Stanford group), https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1.full.pdf
 
+- [Equivariant Diffusion for Molecule Generation in 3D](https://arxiv.org/abs/2203.17003), for small moledules, equivariant to Euclidean transformations. 
+
 
 
 **Miscellaneous**
 - Learning the Drug-Target Interaction Lexicon, https://www.biorxiv.org/content/10.1101/2022.12.06.519374v1.full.pdf
+
+- [Protein Design with Guided Discrete Diffusion](https://arxiv.org/pdf/2305.20009.pdf)
 
