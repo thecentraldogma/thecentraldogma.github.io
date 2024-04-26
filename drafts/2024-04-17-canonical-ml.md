@@ -13,3 +13,7 @@ mathjax: true
 
 - Gene identification: Given a disease, identify the gene(s) that are involve in it. 
 
+- Protein language modeling: this is representation learning for proteins. 
+
+- Cell representation larning using single-cell transcriptomics data. There is a link between this and protein language models because any given gene can be represented by its protein, and therefore also by its protein embedding from a protein-language-model. 
+

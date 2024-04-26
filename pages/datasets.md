@@ -17,6 +17,14 @@ includelink: true
 
 - [DISEASES](https://diseases.jensenlab.org/About): DISEASES is a weekly updated web resource that integrates evidence on disease-gene associations from automatic text mining, manually curated literature, cancer mutation data, and genome-wide association studies.
 
+- [CellXGene corpus](https://cellxgene.cziscience.com/): single cell data. Looks like its run by the Chan Zuckerberg initiative.  
+
+
+**Important metrics**
+
+- pLDDT: 
+- TM-score: 
+- 
 
 **The nature of data**
 
@@ -32,6 +40,7 @@ Biological data has several nuances to be aware of. Just as someone new to compu
 - Genomics data:
   - scRNA (single cell RNA) data: This type of data consists of measurements made from a single cell at a time. It measures the _expression level_ (i.e. intensity level) of each gene in an organism's DNA. The way it does this is by measuring the relative abundance of the mRNA corresponding to each gene. One row of data is a single cell's measurements, each column is a gene, and each value is a continuous measurement that indicates the relative abundance of mRNA from that gene. The measurements are normalized to account for the fact that some genes are much longer than others and therefore would naturally lend themselves to greater abundance of mRNA. Most, in fact the vast majority of genes, are likely to be unexpressed, i.e. to have mRNA measurments of 0. The reason this type of data is relevant is that even though each cell has the same DNA, it _expresses_ its genes differently from other cells -- this is what allows cells to become specialized: liver cells, muscle cells, skin cells, etc -- and a cell also expresses its genes differently at different _times_, depending on its environment and stimili it may be experiencing at that time. Therefore scRNA measurements are not just cell-specific, they are also time-specific. 
   - Straight up gene sequences consisting of the genome of several individuals of many species. A genome is simply a long sequence of base-pairs. The lenght of the sequence is typically measured in units of kb -- kilo base-pairs. 
+  - A 3rd type of dataset is a graph between genes, or a gene-gene network, that is meant to encode interactions between genes. 
 
 
 **What is FASTA format?**
