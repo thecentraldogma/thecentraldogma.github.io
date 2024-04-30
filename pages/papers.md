@@ -3,7 +3,7 @@ layout: page
 title: Papers
 includelink: true
 ---
-A growing list of interesting papers.
+A growing list of useful paper in the field. 
 
 **Review papers**
 
@@ -11,17 +11,19 @@ A growing list of interesting papers.
 
 - Scientific Discovery in the Age of Artificial Intelligence, Nature 2023
 
-- Hitchhiker’s guide to geometric GNNs for 3D atomic systems https://arxiv.org/pdf/2312.07511.pdf
+- [Hitchhiker’s guide to geometric GNNs for 3D atomic systems](https://arxiv.org/pdf/2312.07511.pdf)
 
 - Engineering protein-based therapeutics through structural and chemical design https://www.nature.com/articles/s41467-023-38039-x
 
-- Geometric deep learning book https://arxiv.org/pdf/2104.13478.pdf
+- [Geometric deep learning book, Bronstein et al](https://arxiv.org/pdf/2104.13478.pdf)
 
-- Growing ecosystem of deep learning methods for modeling protein–protein interactions, https://arxiv.org/pdf/2310.06725.pdf
+- [Growing ecosystem of deep learning methods for modeling protein–protein interactions](https://arxiv.org/pdf/2310.06725.pdf)
 
-- Diffusion models in protein structure and docking, https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711
+- [Diffusion models in protein structure and docking](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711)
 
-- The genetic Basis for Disease: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279436/pdf/ebc-62-ebc20170053.pdf
+- [The genetic Basis for Disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279436/pdf/ebc-62-ebc20170053.pdf)
+
+- [Genome-wide association studies](https://www.nature.com/articles/s43586-021-00056-9)
 
 
 
