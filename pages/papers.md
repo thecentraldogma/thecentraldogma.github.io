@@ -87,11 +87,28 @@ A growing list of useful paper in the field.
 
 - [Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design](https://arxiv.org/abs/2402.04997)
 
+- FrameDiff paper: [SE(3) diffusion model with application to protein backbone generation](https://arxiv.org/pdf/2302.02277), Jason Yim et al. 
+
+- SCMDiff paper: [Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem](https://arxiv.org/abs/2206.04119), Trippe et al, 2022. 
+
+
+
 
 
 
 **Miscellaneous**
-- Learning the Drug-Target Interaction Lexicon, https://www.biorxiv.org/content/10.1101/2022.12.06.519374v1.full.pdf
+- [Learning the Drug-Target Interaction Lexicon](https://www.biorxiv.org/content/10.1101/2022.12.06.519374v1.full.pdf)
 
 - [Protein Design with Guided Discrete Diffusion](https://arxiv.org/pdf/2305.20009.pdf)
+
+
+**Geometric Deep learning**
+- [SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks](https://arxiv.org/pdf/2006.10503)
+
+- [Hitchhiker’s guide to geometric GNNs for 3D atomic systems](https://arxiv.org/pdf/2312.07511.pdf)
+
+- [Geometric deep learning book, Bronstein et al](https://arxiv.org/pdf/2104.13478.pdf)
+
+- Framediff paper: [SE(3) diffusion model with application to protein backbone generation](https://arxiv.org/pdf/2302.02277), Jason Yim et al.
+
 
