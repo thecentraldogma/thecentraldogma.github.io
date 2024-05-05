@@ -26,3 +26,5 @@ Here are the main highlights of RFDiffusion:
     - Binder design: here we are given the structure of a target and we want to design a protein structure that will bind to it. 
     - Symmetric design
     - 
+
+**Critique**: The specific manner in which noise is added to residue frames is that independent 3D translational noise and 3D rotational noise is added to each residue independently of other residues. This means that the fullly noised state does not consist of a continuous chain of residues anymore. Since all proteins consist of continuous chains of residues, the denoising process needs to learn this fact. This feels like an inefficient use of data from a sample complexity view. I'm guessing one of the reaons the authors chose this route is that when generating we don't know what the sequence of amino acids is, and this approach allows for diverse sequences to form. However, what if we add a different type of noise that always maintains the continuity of the backbone during noising/denoising: by adding rotations between each pair of successive residues, and by adding discrete noise that flips between the 20 possible amino acids? 
