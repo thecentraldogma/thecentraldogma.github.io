@@ -26,6 +26,8 @@ A growing list of terms from biology, chemistry, bioinformatics and medicine, us
 
 - **Competetive binding**: The binding of a molecule A to B is said to be competetive if another molecule C is also seeking to bind to B, and the binding of A to B reduces the amount of C that can bind to B. A good example is the CHolstrol drug Lipitor, which works by binding to an enzyme known as HMG-CoA-Reductase that is involved in the pathway of Cholestrol Production. The binding of Lipitor to HMG-CoA reductase is competitive, meaning that the drug competes with the natural substrate (HMG-CoA) for binding to the active site of the enzyme. By occupying this site, Lipitor effectively inhibits the enzyme's activity, leading to a decrease in cholesterol synthesis.
 
+- **CRISPR**: A technology to selectively edit the DNA of lving organisms. CRISPR stands for “clustered regularly interspaced short palindromic repeats”. Given that DNA encodes instructions to make proteins and that DNA can sometimes mutate to incorrect states where the intende prteins are not produced, once can see what CRISPR is such a useful tool. 
+
 - **Designability (proteins)**: A computationally generated protein structure is said to be designable if it has 'good' self-consistency scores in a recapitulation process. That is, (1) the designed protein structure is first used to produce a correspodning sequence (typically using ProteinMPNN), (2) then that sequence is used to predict a structure (typically using either ESMFold or AlphaFold2), and finally (3) the predicted structure from 2 and the initial structure are compared for geometric similarity using RMSD and TM score (which are typically called scRMDS and scTM respectively where 'sc' stands for self-consistency). The initial structure is said to be designable if: scRMSD on alpha-Carbons is < 2 Angstroms. 
 
 - **Differentiation**: The process by which B-cells in the human immune system divide into two different types of cells, namely plasma cells (which only produce antibodies that are secreted, sometimes at a very high rate, and then these cells die without further growth or division), and other B-cells that express antibody proteins of the same type at their membrane/surface. 
@@ -58,6 +60,8 @@ A growing list of terms from biology, chemistry, bioinformatics and medicine, us
 
 - **MSA**: Multiple Sequence Alignment. Multiple Sequence Alignment (MSA) involves aligning three or more biological sequences (DNA, RNA, or proteins) to identify regions of similarity that may indicate functional, structural, or evolutionary relationships between the sequences. By comparing these sequences, MSA helps in identifying conserved sequence motifs, understanding phylogenetic relationships, and predicting the structure and function of newly discovered genes or proteins.
 
+- **Perplexity**: Perplexity is a metric borrowed by protein language memodels from from NLP. It ranges from 1 for a perfect model to 20 for a model that makes predictions at random since there are 20 possible equally likely amino acids. Intuitively, the perplexity describes the number of amino acids the model is choosing between for each prediction. Mathematically, perplexity is $$2^{-L}$$ where $$L$$ is the average log likelihood of a character or an amino acid position according to the model. 
+
 
 - **Post-translational modifications**: Post-translational modifications (PTMs) are chemical changes to a protein after its synthesis (translation) in a cell. These modifications can occur at various points in a protein's lifecycle and are essential for regulating its function, localization, and interaction with other cellular molecules. PTMs can influence a protein's activity, stability, and its role in signaling pathways, thereby playing a critical role in numerous biological processes and diseases.
 
@@ -79,12 +83,20 @@ A growing list of terms from biology, chemistry, bioinformatics and medicine, us
 
 - **Ribosome**: An 'organelle' in the cell outside the nucleus that does translation, i.e. conversion from mRNA to proteins. Ribosomes are protein-factories. 
 
+- **RMSD**: RMSD stands for Root Mean Square Deviation. It is a commonly used measure of the average distance between the atoms (usually the backbone atoms) of superimposed proteins. In the context of protein structure prediction, RMSD is used to compare the spatial arrangement of atoms within a predicted protein structure to the known structure of the same protein (often derived from experimental data such as X-ray crystallography or NMR spectroscopy). The first step in calculating RMSD is to align the predicted protein structure with the reference structure. This involves rotating and translating one of the structures (or both) to achieve the best possible superposition.
+
 
 - **scRNA data**: Single Cell RNA data. This means that the data was collected from a single cell, rather than from a multi cellular organism. The data itself consists of the relative quantitives of various RNA molecules, which are proportional to the degree to which the corresponding gene that created that RNA, is expressed. The data is typically normalized for gene length -- basically, longer genes have a greater chance of producing RNA because the the 'transcription factors' (some kind of molecules) that must attach to the DNA have a greater chance of doing so for genes that are longer. 
+
+- **Sequence recovery**: Sequence recovery measures the percentage of amino acids in the designed sequence that are identical to those in the original sequence at each corresponding position. It is expressed as a percentage and is used to assess how well the design process retains the original protein's characteristics. 
 
 - **Single cell Transcriptomics**: the study of gene expression profiles of individual cells (as opposed to a large number of cells, which would mix the distrbutions of the collected data). This technique allows researchers to measure the RNA (transcriptome) present in a single cell, providing a detailed view of cellular function and behavior at an unprecedented resolution. The advent of single-cell transcriptomics has revolutionized our understanding of cellular diversity, differentiation processes, and disease mechanisms. scRNA data is what is used in papers like UCE (universal cell embeddings), csGPT and Geneformer (see the papers page).
 
 - **SMILES**: A string representation of molecules, typically used for small molecules
+
+- **Terminus N and C**: The N terminus is the starting point of a protein or peptide chain and the C temrinus is the end point. 
+
+- **TM score**: The TM score (Template Modeling score) is a measure used in structural biology to assess the similarity between protein structures. It is scaled between 0 and 1, where 1 indicates a perfect match between two structures. The TM score is particularly useful because it is less sensitive to local variations in structure and more focused on the overall topology, making it robust for comparing larger structural deviations. This metric provides a normalized measure of structural similarity, useful in evaluating the accuracy of predicted protein structures against known structures.
 
 - **Transcriptome**: The "transcriptome" refers to the entire set of RNA molecules, including messenger RNA (mRNA), ribosomal RNA (rRNA), transfer RNA (tRNA), and other non-coding RNAs, produced by the genome in one cell or a population of cells under specific circumstances or conditions. The transcriptome provides a comprehensive snapshot of all the genes that are actively being transcribed and thus expressed at any given moment.
 

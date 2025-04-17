@@ -1,0 +1,1 @@
+Trangle attention is a part of alphaFold3. It is a way of expressing an inductive bias corresponding to 3d geometry, where the triangle inequality holds - so that the model can produce structures that obey the triangle inequality, and doesn't have to spend precious cycles learning the triangle inequality from the data. 

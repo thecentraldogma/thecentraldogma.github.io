@@ -5,11 +5,11 @@ date: 2024-03-22
 mathjax: true
 ---
 
-Protein-LMs are BERT-style (encoder only) models trained on protein sequences, typically using a masked-language-modeling objective. The goal is to to self-supervised repreesntation learning, so that the learnt protein representations can perform well on downstream tasks by virtue of transfer learning, or the learnt model can be fine-tuned using a labelled dataset for a downstream task. 
+Protein-LMs are BERT-style (encoder only) models trained on protein sequences, typically using a masked-language-modeling objective. The goal is to do self-supervised repreesntation learning, so that the learnt protein representations can perform well on downstream tasks by virtue of transfer learning, or the learnt model can be fine-tuned using a labelled dataset for a downstream task. 
 
 A number of Protein-LLMs have been proposed by groups in academia and industry. Below is an (opinionated) history of the developments in the last few years: 
 
-- Transformer based protein language models were introduce in the 2019 preprint "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences", from the Meta AI protein research team. 
+- Transformer based protein language models were introduced in the 2019 preprint "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences", from the Meta AI protein research team (which has since disbanded). 
 
 - ProteinBERT (2022, Hebrew University of Jerusalem)
 
@@ -27,7 +27,10 @@ A number of Protein-LLMs have been proposed by groups in academia and industry. 
 
 
 **Embeddings produced by protein-LLMs**: 
-In the general case, one can utilize the output of the last layer of the network as embeddings -- this produces a tensor of shape 'Number of residues' x 'Embedding dimension'. But one can also take the mean of all the embeddings across residues to get a single vector for the entire protein as a point in embedding dimensions. It is also possible to get earlier layers too of course. Finally, as in BERT, it can be more meaningful to use the embedding corresponding to the BEGIN token, rather than taking a mean over all amino acids
+In the general case, one can utilize the output of the last layer of the network as embeddings -- this produces a tensor of shape 'Number of residues' x 'Embedding dimension'. But one can also take the mean of all the embeddings across residues to get a single vector for the entire protein as a point in embedding space. It is also possible to pull representations from earlier layers too of course. Finally, as in BERT, it can be more meaningful to use the embedding corresponding to the BEGIN token as the protein embedding for downstream tasks, rather than taking a mean over all amino acids.
+
+**What a protein embedding replaces**: 
+MSA or multiple sequence alignment is a function that takes in a protein sequence and returns a variable number of related sequences. Here 'related' corresponds to preservation of subsegments of a protein. This is a useful function because it serves as a way to represent the input protein better -- because it allows us to extract features from not just the input protein as well as other rlated proteins. Its a bit like: say I wanted to represent you as a person via a list of features - then I might benfit by also knowing who your friends and coworkers are, to obtain a richer set of features. However, MSA is a cumbersome procedure and it cannot be made part of an end to end learning architecture. A protein language model serves as a substitute for MSA -- it allows us to use the protein embedding produced by the PLM as the representation of the protein in a downstream task -- and, even better, the PLM can be made part of a longer chained model, and the whole thing optimized/fine tuned end to end - this is not possible with MSA> 
 
 **Downstream tasks for protein modeling**:
 
