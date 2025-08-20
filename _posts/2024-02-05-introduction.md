@@ -5,39 +5,27 @@ date: 2024-02-05
 mathjax: true
 ---
 
-1. 'Drug design' is an overloaded term. It can mean many things. One way to systematize the term is to subdivide it into two separate areas: small molecule design and protein design. These are two classes of therapeutics. 
+Disease has been with humans for as long as we have historical records: from infectious diseases like cholera and malaria to the much more recent 'lifestyle diseases' like diabetes and heart disease, which are understood to result in large part due to a mismatch between the conditions we humans evolved for and the conditions in which we not live. Modern medicine has used many terms to describe treatments for diseases: medicines, therapeutics, and 'drugs'. Early medicines were often the result of either accident (e.g. pennicilin) or intense study and labor using laboratory techniques. In the last few years, there have been major advances in the field of drug-design, i.e. the design of specific molecules to treat specific diseases. This has been possible because we now understand something quite extraordinary that would have seemed miraculous to the scientists of the early 20th century: that the function of particles and molecules in the human body is determined by their 3-dimensional geometry! This is because particles interact with other particles and with cells of specific organs, in specific ways by way of a specific geometry -- often by fitting or locking into the 3D geometry of another partile or cell surface. 
 
-2. A therapeutic is a substance meant to be introduced into the body to help alleviate disease -- in general terms. The mechanism of action is not specified. 
+This basic understanding unlocks and entirely new field -- computational drug design. That is, if we understand the mechanism by which a disease progresses, and the identities and 3D geometries of the particles involved, it might be possible to design particles that have a specific 3D geometry that would interact with one of the particles culpable in the disease mechanism and thereby block or inhibit the disease. 
 
-3. A very common mechanism of action is related to the geometry of the molecule being introduced, whether small molecule or protein. This is because a common mechanism is for the therapeutic molecule to bind to a target particle in the body or bloodstream, and this binding is enabled by a specific geometrical shape, that depends on the geometry of the target. 
+One way to systematize the field is to subdivide it into two separate areas: small molecule design and protein design. Protein design refers to computationally designing new proteins, even those that may not ever have been discovered, with 3D geometry that would interact with some particle in a disease pathway, for example binding to a given target molecule. Small molecule design is the same thing but with much smaller molecules than proteins. In addition to having the right 3D gemetry, these molecules also need to have other properties/ Some of these are (not an exhastive list): 
 
-4. Therefore it is important to know what the target is that we want to bind to. 
+- They must not be toxic. 
+- They must have good solubility. 
+- They must be specific, i.e they must interact with the intended target but not with other unintended targets, so that it doesnt disrupt other bilogical processes in our body. 
 
-5. Drugs/therapeutics, whether small molecule or protein, also have their own properties: solubility, toxicity to humans, etc. etc., some of which are desirable and some are undesirable. 
+Obviously it is important to know what particle we want our designed drug to interact with -- this particle is typically called the **target**. Biologists and chemists still need to do the difficult and foundational work of deciphering the precise mechanism of a disease, and what  particles are involved, so that some candidate targets can be idnetified. Protein based drugs have been growing in market share -- they have the advantage of lower side effects because they are biomolecules rather than chemical compounds, but the disadvantage is that they are currently harder to manufacture. 
 
-6. There exist databases for both small molecules and proteins that capture such properties for some large number of molecules, some of which are drugs in use today, but most are not. 
+Modern machine learning methods enable us to computationally create molecules that are likely to have the right properties to interact with a specific target. The design of
+proteins with a desirable 3D-gemetry is the inverse of the protein folding problem. That is, while the protein folding problem asks: 'given a protein sequence, what 3D struc
+ture does it spontaneously fold to?'. The inverse problem asks: 'given a desired 3D shape, what protein sequence(s) will sponteneously fold to it?'. We still ned the protein
+ to have the other desirable properties (solubility, non toxicity, specificity, etc.). If we can computationally figure out a set of protein sequences that are likely to hav
+e the right properties, i.e. in silico,, then we can verify if they really do have those properties in a wet-lab, i.e. in vitro. 
 
-7. Proteins belong to a class of large molecules called biomolecules. They are composed of a chain of amino acids, with a backbone comprising alpha carbons. Because they are so big, they fold into specific low energy shapes at resting state, the lowest energy of which is called the native state. Small molecules do not have this compexity - they have just one geometric shape because they are small. 
+One can see how this can be cast as a generative AI problem. Just as text LLMs allow a prompt to be completed with text that is likely to 'make sense' given a large body of training data that encodes statistic patterns, a generative model for molecules can be 'prompted' by specifying that the molecule to be generated must have a portion with a specific 3D gemetry (this usually called a **motif**), and given this constraints and other real-world constraints that encode the basic structural chemistry of chemical bonds, and free energy, the generativ model must sample candidate molecules. This is the premise behind RFDiffusion from the baker lab, and Chroma, another paper using diffusion models. The fidelity with which we can do this depends on the quantity and quality of the data used to train a generative model, as well as on the model itself. In particular, the data we need must pair chemical molecules and protein sequences to their 3D geometry. The structure of small molecules is realtively easy to predict because of number of atom-atom interactions is relatively small. But the 3D geometry of a protein is notoriously difficult to predict. Only a tiny fraction of known proteins have ever had their structure resolved in a laboratory. However, in 2021, our ability to know the structure of a preotein dramatically improved - thanks to AlphaFold2. AlphaFold2 is a machine learning model trained on available data at the time, that can be used to predict the 3D structure of a new protein, and it turns out that, with some exceptions, it does extremely well at predicting structure of unknown proteins. This means that while we still do not have lab-verified structure for many more proteins, we do have alphaFold2 predictions at the press of a button. And this data can potentially serve as input in the drug design problem. 
 
-8. Protein based drugs have been growing in market share -- they have the advantage of lower side effects because they are biomolecules rather than chemical compounds, but the disadvantage is that they are currently harder to produce (is this because of discovery, or manufacturing?)
 
-9. The virtual screening problem: given a small molecule, predict its properties, including suitability as a drug for a disease. (how is this encoded?) 
 
-10. The inverse problem: given desirable properties, what small molecule would have those properties. This requires creating a generative model that outputs molecular graphs as small molecules, when conditioning on desirable propreties as inputs (reference?)
-
-11. Similarly, for proteins: the protin folding problem: is where we take a protein sequence as input and predict its 3D structure in the native state. Recall that shape is important becuase the structure of a protein dictates its function. 
-
-12. The inverse problem is called the protein-design problem: given a desirable shape, what protein sequence would have that shape? Such a protein may not even exist in nature, but there are ways to create proteins in a wetlab given an amino acid sequence. 
-
-13. Points 9,10,11,12 is where ML comes in. 9 and 11 are discriminative problems (given a molecule, predict something about it), while 10 and 12 are generative problems (generate molecules/proteins with desired properties). Generative problems are generally solved using either VAE, Diffusion or Flow based methods. 
-
-14. The core ML modeling construct useful in 9/10/11/12 is the gemoetric graph neural network, because molecules can be modelled as graphs. However, molecules are not 2-dimensional graphs but rather 3-dimensional graphs, with specific forces, coordinates and interactions between atoms. These effects are not captured by plain vanilla GNNs which only model the relational structure of a graph. 
-
-15. The remedy to this problem is Geometric GNNs, which is the topic of the review paper 'Hitchhiker's guide... '. GGNNs come in 3 flavors: Invariant, Equiariant and Unconstrained. Invariant GGNNs are those for which a Euclidean transformation like rotation, reflection or translation has no effect on the output of the model. Equivariant GGNNs are those where such equclidean transormations on the input graph produce the same trransformation on the output. Unconstrained GGNNs are ? 
-
-16. Invariant GGNNs: are those where an approximation is made by converting vector forces and other such quantities into scalar features at each atom in the graph. After this one-time pre-calculation, the rest of the modeling exercise is treated as a vanilla GNN. 
-
-17. Equivariant GGNNs require some additional tensor math to understand how to do careful book-keeping over the vector forces etc. as we pass through various NN layers. 
-(Need to understand this better)
 
 
