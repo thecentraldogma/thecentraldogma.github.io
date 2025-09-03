@@ -21,7 +21,7 @@ A number of Protein-LLMs have been proposed by groups in academia and industry. 
 
 - UniRep
 
-- ProtGPT2, University of Bayeruth
+- ProtGPT2, University of Bayeruth: This is an autoregressive style protein LLM - to the best of my currenty understanding, I think autoregressive style protein LLMs make less sense than BERT-style models, since proteins are not like spoken or written language. BERT-style protein LLMs do make sense because they aid in creating embeddings for proteins. 
 
 - LM-Design, ByteDance
 
@@ -53,9 +53,6 @@ MSA or multiple sequence alignment is a function that takes in a protein sequenc
 - $T_m$ prediction: Predicting the meltime temperature of a protein, which is the temperature at which the protein looses its stable 3D configuration. This is a prtein-level regression task. 
 
 
-Benchmarks for evaluating transfer learning from protein LLMs: 
-
-- TAPE
 
  
 
