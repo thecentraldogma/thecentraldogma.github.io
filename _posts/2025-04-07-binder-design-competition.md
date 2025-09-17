@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binder design competition hosted by Adaptyv Bio"
+title: "Binder design strategies: insights from the Adaptyv challenge"
 date: 2025-04-07
 mathjax: true
 ---
