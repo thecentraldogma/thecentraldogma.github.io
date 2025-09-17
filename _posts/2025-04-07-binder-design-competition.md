@@ -11,8 +11,7 @@ This note is a summary of a binder design competition hosted by Adaptyv Bio. Ada
 
 **Competition Goal**
 
-The goal of this competition was to design novel single-chain proteins that bind the extracellular domain of EGFR (Epidermal Growth Factor Receptor), a critical therapeutic target in cancer. Designs had to be at least 10 amino acids different from any known therapeutic antibodies. Entries (up to 10 per designer) were ranked using three computational metrics:
-
+The goal of this competition was to design novel single-chain proteins that bind the extracellular domain of EGFR (Epidermal Growth Factor Receptor), a critical therapeutic target in cancer. Designs had to be at least 10 amino acids different from any known therapeutic antibodies. 
 
 **Design approaches**
 
