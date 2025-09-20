@@ -37,9 +37,70 @@ How do the amino acids join to form a chain? The amino group of one amino acid r
 ```
 …C=O – NH…
 ```
-That bond is not just a simple single bond. Electrons from the carbonyl (C=O) and the C–N bond are delocalized and therefore the C–N bond has partial double-bond character. A double bond can’t freely rotate, so this C–N peptide bond is rigid and planar. That means the atoms around it (C, O, N, H, and the two α-carbons) all lie roughly in the same plane, like a flat tile.
+Note that the left portion has dropped an OH and the right portio has dropped an H. That C–N bond is a double bond - which can’t freely rotate, so this C–N peptide bond is rigid and planar. That means the atoms around it (C, O, N, H, and the two α-carbons) all lie roughly in the same plane, like a flat tile.
 
-Two key backbone rotation angles:
+A major source of variation in the shapes that proteins fold to comes from the angles of rotation of two specific bonds: 
 - φ (phi): around N–Cα
 - ψ (psi): around Cα–C
-Not every combination is allowed—steric clashes limit them (see Ramachandran plot), and those allowed zones give rise to the recurring shapes below.
+The alpha carbon (Cα) is the one that is attached to the COOH, the R, the H and the amino group NH2. Not every combination of these two angles is allowed, because steric clashes limit them. The allowed combinations limit the shapes that can be produced. The combinations that are possible result mostly in _alpha-helices_ and _beta sheets_, which lead us to the next level of detail of protein structure: the secondary structure of a protein.
+
+**Primary structure**
+Primary structure is basically the sequence of amino acids in a protein chain. When we say this, we are talking about the order of the side chains (R groups) along the chain. Every amino acid has the same backbone skeleton (–N–Cα–C–). What makes one amino acid different from another is the R group attached to the alpha carbon. So when we write a sequence like:
+
+```
+Met – Lys – Gly – Phe – 
+```
+what we’re really specifying is:
+- First residue has R = –CH₂–S–CH₃ (methionine)
+- Next residue has R = –(CH₂)₄–NH₃⁺ (lysine)
+- Next residue has R = –H (glycine)
+- Next residue has R = –CH₂–phenyl (phenylalanine)
+…and so on.
+
+**Secondary structure**
+The next level of detail as we zoom out consists of local recurring shapes. 
+These are short segments (a few to ~30 residues) that adopt regular, repeating backbone patterns stabilized mostly by backbone–backbone hydrogen bonds. The two most common patterns are _α-helices_ and _β-sheets_. In between them are connector regions called _turns_ and _loops_.
+
+α-helix:
+
+Pattern: each carbonyl oxygen of residue i H-bonds to the amide hydrogen of residue i+4.
+
+Geometry: ~3.6 residues/turn; rise ~1.5 Å per residue; right-handed in natural L-amino acids.
+
+Side chains: project outward like bristles on a bottle brush.
+
+Properties:
+
+Amphipathic helices: one face hydrophobic, the other polar—great for interfaces (e.g., membrane surface or protein–protein).
+
+Helix macrodipole: N-end partial +, C-end partial −; helix ends often cap with oppositely charged/polar residues.
+
+Variants: 3₁₀ helix (tighter; i→i+3 H-bond), π-helix (looser; i→i+5; rare, often a “bulge”).
+
+β-sheet
+
+Building blocks: β-strands (extended zig-zag backbone) H-bond side-by-side.
+
+Topologies:
+
+Antiparallel: strands run opposite directions; nearly linear H-bonds; often more stable.
+
+Parallel: strands run same direction; angled H-bonds; requires long connectors.
+
+Geometry: sheets are twisted, not flat; can wrap into barrels (e.g., porins) or form sandwiches (immunoglobulin fold).
+
+Motifs: hairpins, Greek key, β-MEANDER.
+
+Turns & loops
+
+Turns: short, tight direction changes (often 4 residues; β-turns with specific φ/ψ signatures).
+
+Loops: irregular connectors; frequently mediate binding and specificity (e.g., antibody CDR loops).
+
+How we recognize it:
+
+Ribbon cartoons: helices = spirals/cylinders; sheets = arrows (pointing N→C); loops = thin ribbons.
+
+CD spectroscopy: estimates helix/sheet content.
+
+Ramachandran: helices and sheets occupy characteristic φ/ψ zones.
