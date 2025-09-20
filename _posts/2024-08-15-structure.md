@@ -59,48 +59,43 @@ what we’re really specifying is:
 
 **Secondary structure**
 The next level of detail as we zoom out consists of local recurring shapes. 
-These are short segments (a few to ~30 residues) that adopt regular, repeating backbone patterns stabilized mostly by backbone–backbone hydrogen bonds. The two most common patterns are _α-helices_ and _β-sheets_. In between them are connector regions called _turns_ and _loops_.
+These are short segments (a few to ~30 residues) that adopt regular, repeating backbone patterns stabilized mostly by backbone–backbone hydrogen bonds. Backbone–backbone hydrogen bonds are the attraction between the “O” from the carbonyl group (C=O) of one residue and the “H” from the amide group (N–H) of another. 
+These weak links stitch the protein chain into stable shapes like helices and sheets. The two most common patterns are _α-helices_ and _β-sheets_. In between them are connector regions called _turns_ and _loops_.
 
 α-helix:
+- Pattern: each carbonyl (CO) oxygen of residue i H-bonds to the amide (NH) hydrogen of residue i+4.
+- Geometry: ~3.6 residues/turn; rise ~1.5 Å per residue; right-handed in natural L-amino acids.
+- Side chains (the R's): project outward like bristles on a bottle brush.
 
-Pattern: each carbonyl oxygen of residue i H-bonds to the amide hydrogen of residue i+4.
+β-sheet:
+- β-strand: To understand a beta-sheet, we first need to understant a beta-strand. A β-strand is a stretch of polypeptide chain that is extended, not coiled like a helix. In this conformation, the backbone zig-zags a little, and the side chains (R groups) alternate pointing above and below the strand
+```
+  R ↑          R ↑
+N–Cα–C–N–Cα–C–N–Cα–C–
+        R ↓
+```
+- This alternating pattern is important — it lets strands pack together without the side chains clashing.
+- Multiple β-strands line up side by side.
+- Hydrogen bonds form between backbone N–H (donor) of one strand and backbone C=O (acceptor) of the neighboring strand. So the strands are zippered together.
+- These H-bonds run perpendicular to the strand direction, like rungs on a ladder.
+- Antiparallel β-sheet: Neighboring strands run in opposite N→C directions
+- Parallel β-sheet: Neighboring strands run in the same N→C directions
+- Despite the name, β-sheets are twisted, not really flat. This swit makes them more stable and allow them to form structures like beta-barrels (i.e. cylinders) and beta-sandwiches (2 sheets packed together)
 
-Geometry: ~3.6 residues/turn; rise ~1.5 Å per residue; right-handed in natural L-amino acids.
+**Tertiary structure**
+This is the overall 3D arrangement of all atoms (or of the backbone) for one polypeptide chain—how its helices, sheets, and loops are packed into a fold (often subdivided into domains). The forces that shape it are several:
 
-Side chains: project outward like bristles on a bottle brush.
+- Hydrophobic effect (the big one): nonpolar side chains pack inward away from water; polar/charged faces solvent.
+- Van der Waals packing: tight interior packing of side chains.
+- Hydrogen bonds: within backbone (secondary) and side-chain networks.
+- Salt bridges: ionic pairs (e.g., Lys–Asp) tuned by local dielectric.
+- Disulfide bonds: covalent Cys–Cys crosslinks that lock topology (common in secreted/extracellular proteins).
+- Metal coordination / cofactors: Zn²⁺ fingers, heme in globins, Fe–S clusters—often define active sites.
+- Proline & glycine effects: Proline restricts φ (helix breaker/turn former); Gly is flexible (favored in tight turns).
 
-Properties:
+Generally, tertiary structure is obtained experimentally using x-ray crystallography or NMR.
 
-Amphipathic helices: one face hydrophobic, the other polar—great for interfaces (e.g., membrane surface or protein–protein).
+**Quaternary structure**
+The 3D arrangement of two or more polypeptide chains (subunits) into a functional oligomer or complex.
 
-Helix macrodipole: N-end partial +, C-end partial −; helix ends often cap with oppositely charged/polar residues.
 
-Variants: 3₁₀ helix (tighter; i→i+3 H-bond), π-helix (looser; i→i+5; rare, often a “bulge”).
-
-β-sheet
-
-Building blocks: β-strands (extended zig-zag backbone) H-bond side-by-side.
-
-Topologies:
-
-Antiparallel: strands run opposite directions; nearly linear H-bonds; often more stable.
-
-Parallel: strands run same direction; angled H-bonds; requires long connectors.
-
-Geometry: sheets are twisted, not flat; can wrap into barrels (e.g., porins) or form sandwiches (immunoglobulin fold).
-
-Motifs: hairpins, Greek key, β-MEANDER.
-
-Turns & loops
-
-Turns: short, tight direction changes (often 4 residues; β-turns with specific φ/ψ signatures).
-
-Loops: irregular connectors; frequently mediate binding and specificity (e.g., antibody CDR loops).
-
-How we recognize it:
-
-Ribbon cartoons: helices = spirals/cylinders; sheets = arrows (pointing N→C); loops = thin ribbons.
-
-CD spectroscopy: estimates helix/sheet content.
-
-Ramachandran: helices and sheets occupy characteristic φ/ψ zones.
