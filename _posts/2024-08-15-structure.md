@@ -18,20 +18,26 @@ H2N–C–C–OH
     R
 ```
 Lets analyze this molecule piece by piece:
-- H2N (–NH₂) → this is the amino group (hence “amino acid”).
-- COOH (–COOH) → this is the carboxyl group (the “acid” part).
+- H2N (–NH₂-): this is the amino group (hence “amino acid”).
+- COOH (–COOH): this is the carboxyl group (the “acid” part).
 - C (the middle one, called C-alpha, Cα) → holds everything together.
 - R → the variable side chain with 20 common possibilityes. This is the only part that changes between amino acids. This is like the personality of the Lego brick. Examples:
-  - R = just H → glycine (the simplest, very flexible).
-  - R = CH₃ → alanine (small and boring).
-  - R = big aromatic ring → tryptophan (bulky, absorbs UV light).
-  - R = acidic group → glutamate/aspartate (negatively charged).
-  - R = basic group → lysine/arginine (positively charged).
+  - R = just H => glycine (the simplest, very flexible).
+  - R = CH₃ => alanine (small and boring).
+  - R = big aromatic ring => tryptophan (bulky, absorbs UV light).
+  - R = acidic group => glutamate/aspartate (negatively charged).
+  - R = basic group => lysine/arginine (positively charged).
 
 How do the amino acids join to form a chain? The amino group of one amino acid reacts with the carboxyl group of the next. They form a peptide bond (–CO–NH–), releasing water. Because every amino acid has the same backbone, they link neatly into a chain. The chain’s “decorations” (the side chains R) stick out like charms on a bracelet.
+
 - Residue: When amino acids join to make a protein, the carboxyl group (–COOH) of one and the amino group (–NH₂) of the next react, forming a peptide bond (–CO–NH–). In the process, a water molecule is removed (–OH from one, –H from the other). That means each amino acid loses a little piece of itself (the parts that formed water) the name we use for an amino acid once it’s joined into a chain (because it “leaves behind” water during linking).  After amino acids have joined in the chain, what remains of each original amino acid is called a residue — because it’s the “residue” (the leftover part) of the original whole amino acid once the water is gone. For example: Take glycine (NH₂–CH₂–COOH). As a free amino acid, it has both amino + carboxyl ends. Once in a chain, it no longer has both ends — the middle parts are tied into peptide bonds. What remains in the chain is called the glycine residue.
 
-- Peptide bond: the link between amino acids; formed by removing water between the carboxyl (–COOH) of one and amino (–NH₂) of the next. It’s planar (partial double-bond character), which matters for what angles are allowed.
+- Peptide bond: When two amino acids join, they form a peptide bond:
+
+```
+…C=O – NH…
+```
+That bond is not just a simple single bond. Electrons from the carbonyl (C=O) and the C–N bond are delocalized and therefore the C–N bond has partial double-bond character. A double bond can’t freely rotate, so this C–N peptide bond is rigid and planar. That means the atoms around it (C, O, N, H, and the two α-carbons) all lie roughly in the same plane, like a flat tile.
 
 Two key backbone rotation angles:
 - φ (phi): around N–Cα
