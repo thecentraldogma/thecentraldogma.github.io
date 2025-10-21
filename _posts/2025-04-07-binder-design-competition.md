@@ -7,7 +7,7 @@ mathjax: true
 
 EDIT: There is a much better [paper on Bioarxiv](https://www.biorxiv.org/content/10.1101/2025.04.17.648362v2) that summarizes the competition. 
 
-This note is a summary of a binder design competition hosted by Adaptyv Bio. Adaptyv is a company located in Switzerland that bills itself as a wetlab partner to computational biology clients, i.e. it performs in-vitro testing of in-silico designs. Convenient for computational-only biotech firms! It is useful to analyze the format and metrics used in this competition as well the results because it tells us what approaches were useful for a typical design problem. T
+This note is a summary of a binder design competition hosted by Adaptyv Bio. Adaptyv is a company located in Switzerland that bills itself as a wetlab partner to computational biology clients, i.e. it performs in-vitro testing of in-silico designs. Convenient for computational-only biotech firms! It is useful to analyze the format and metrics used in this competition as well the results because it tells us what approaches were useful for a typical design problem. 
 
 **Competition Goal**
 
