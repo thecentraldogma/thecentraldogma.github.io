@@ -20,11 +20,6 @@ includelink: true
 - [CellXGene corpus](https://cellxgene.cziscience.com/): single cell data. Looks like its run by the Chan Zuckerberg initiative.  
 
 
-**Important metrics**
-
-- pLDDT: 
-- TM-score: 
-- 
 
 **The nature of data**
 
