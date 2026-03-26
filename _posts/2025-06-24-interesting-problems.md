@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Interesting directions in drug design"
+date: 2025-06-24
+mathjax: true
+---
+
 This is my current understanding of interesting directions the field could take as of this writing (June 2025). Its a fast moving space, so its possible some of these have been worked on and I havent seen it. 
 
 - **Common representation space**: The interplay between sequence and structure is mediated by a few key tools: RFDiffusion (unconditional and conditional structure generation), ProteinMPNN (Structure to Sequence), ESM (pseudolikelihood scoring as well as search for other sequences that might fold similarly), and AlphaFold (sequence to structure). Right now, the use of these tools in a chained manner feels a bit clunky - partly because they were all developed separately and for different purposes. To this end, it would be useful to have a single space in which sequence embeddings and structure representations live. I have not yet seen a well known model that projects sequence representations and structure representations into the same space, in the way that CLiP did for images and text. To be sure ESM does representation learning on sequences, allowing for protein sequence embeddings, and there is work on representation learning of structure via SE3-invariant graph-neural-nets, but I don't know of work that attempts to connect the two representations in a common space.
